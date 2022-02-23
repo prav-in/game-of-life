@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background: #ab8bd1;
+  transition: 0.15s;
+}
+
+.cell:hover {
+  background: rgb(51, 185, 230);
+}
+
+.cell:active {
+  background: #519259;
+}
+
+.alive {
+  background: #1c0c5b;
+}
